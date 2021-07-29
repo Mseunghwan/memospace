@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>오늘 할 일</title>
+    <style>
+    </style>
+</head>
+<body id = "setbackground">
+        <h3 id = "day"></h3>
+        <h1 id = "nallja"></h1>
+        <h1 id = "clock">00:00:00</h1>
+
+
+             <form class = "hidden" id="login-form">
+               <input required maxlength = "20" type="text" name="name" class="question" id="nme" required autocomplete="off" />
+               <label for="nme"><span>이름</span></label>
+             </form>
+
+        <h1 style = "display: inline" id = "greeting" class = "hidden"></h1>
+        <h1 id = "loginText" class = "hidden">님,&nbsp&nbsp오늘도 좋은하루에요</h1>
+        <h1 id = "faces" class = "hidden"></h1>
+
+             <div id = "nicepadding"></div>
+
+             <form id = "todo-form">
+                <input type = "text" name="message" rows="2" class="question" id="msg" required autocomplete="off"></input>
+                <label for="msg"><span>오늘&nbsp할&nbsp일</span></label>
+              </form>
+
+              <div id = "nicepadding2"></div>
+        <ul id = "todo-list"></ul>
+        <div id = "nicepadding3"></div>
+        <div id="quote">
+            <span></span>
+            <p></p>
+            <span></span>
+        </div>
+        <p></p>
+        <p></p>
+        <div id = "nicepadding4"></div>
+        <div id = "weather">
+            <span></span>
+            <span></span>
+        </div>
+
+        <script src = "js/greeting.js"></script>
+        <script src = "js/clock.js"></script>
+        <script src = "js/quote.js"></script>
+        <script src = "js/background.js"></script>
+        <script src = "js/todo.js"></script>
+        <script src = "js/weather.js"></script>
+        <script src = "js/kawaiface.js"></script>
+</body>
+</html>
